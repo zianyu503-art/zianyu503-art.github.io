@@ -1,0 +1,69 @@
+{
+  "format": "ai-generated-sprite-atlas-v3",
+  "source": "verdant-soldiers-source-4x8.png",
+  "atlas": "verdant-soldiers-generated.png",
+  "frameSize": { "width": 320, "height": 160, "feetY": 152 },
+  "grid": { "columns": 4, "rows": 8 },
+  "additionalAtlases": {
+    "spearman": {
+      "source": "sunlance-source-4x4.png",
+      "atlas": "sunlance-generated.png",
+      "frameSize": { "width": 480, "height": 240, "feetY": 232 },
+      "grid": { "columns": 4, "rows": 4 },
+      "rows": {
+        "0": "spearman/idle",
+        "1": "spearman/move",
+        "2": "spearman/attack",
+        "3": "spearman/death"
+      }
+    }
+  },
+  "designRule": "Each character is a transparent 2D PNG frame. Frames share one reference design, scale, center and feet baseline; the game only swaps images to animate them and uses no character model.",
+  "rows": {
+    "0": "swordsman/idle",
+    "1": "swordsman/move",
+    "2": "swordsman/attack",
+    "3": "swordsman/death",
+    "4": "archer/idle",
+    "5": "archer/move",
+    "6": "archer/shoot",
+    "7": "archer/death"
+  },
+  "individualFrames": "generated-frames/<unit>/<sequence>/01.png..04.png",
+  "playback": {
+    "swordsman": {
+      "idle": 8,
+      "walk": 10,
+      "run": 8,
+      "attack1": 10,
+      "attack2": 10,
+      "hurt": 5,
+      "death": 12,
+      "defend": 6,
+      "retreat": 8
+    },
+    "archer": {
+      "idle": 8,
+      "walk": 10,
+      "run": 8,
+      "aim": 6,
+      "shoot": 10,
+      "hurt": 5,
+      "death": 12,
+      "defend": 6,
+      "retreat": 8
+    },
+    "spearman": {
+      "idle": 8,
+      "walk": 10,
+      "run": 8,
+      "attack1": 10,
+      "attack2": 10,
+      "hurt": 5,
+      "death": 12,
+      "defend": 6,
+      "retreat": 8
+    }
+  },
+  "fallback": "If the generated atlas cannot load, UnitArt renders the original cached transparent vector frame sequence."
+}
