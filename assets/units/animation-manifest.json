@@ -61,7 +61,7 @@
       "sourceKeyPoses": 24
     },
     "archer": {
-      "atlas": "archer-continuous.png",
+      "atlas": "archer-continuous-v5.png",
       "source": "archer-v2-source.png",
       "clips": {
         "move": {
@@ -85,7 +85,8 @@
           "loop": false
         }
       },
-      "sourceKeyPoses": 24
+      "sourceKeyPoses": 24,
+      "registration": "walk sole anchor excludes neighboring arrow fragments"
     },
     "spearman": {
       "atlas": "spearman-continuous.png",
