@@ -266,6 +266,18 @@
           "loop": true
         }
       }
+    },
+    "giantStomp": {
+      "atlas": "giant-stomp-continuous.png",
+      "source": "giant-stomp-keyed-source.png",
+      "clips": {
+        "action": {
+          "start": 0,
+          "frames": 32,
+          "loop": true
+        }
+      },
+      "sourceKeyPoses": 8
     }
   }
 }
