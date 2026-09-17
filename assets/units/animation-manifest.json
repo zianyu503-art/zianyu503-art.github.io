@@ -306,6 +306,38 @@
         }
       },
       "sourceKeyPoses": 8
+    },
+    "crownKing": {
+      "atlas": "crown-king-continuous.png",
+      "source": "crown-king-source.png",
+      "clips": {
+        "move": {
+          "start": 0,
+          "frames": 32,
+          "loop": true
+        },
+        "action": {
+          "start": 32,
+          "frames": 29,
+          "loop": false
+        },
+        "cast": {
+          "start": 61,
+          "frames": 29,
+          "loop": false
+        },
+        "idle": {
+          "start": 90,
+          "frames": 16,
+          "loop": true
+        },
+        "death": {
+          "start": 106,
+          "frames": 13,
+          "loop": false
+        }
+      },
+      "sourceKeyPoses": 32
     }
   }
 }
