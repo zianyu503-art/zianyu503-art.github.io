@@ -338,6 +338,70 @@
         }
       },
       "sourceKeyPoses": 32
+    },
+    "archmage": {
+      "atlas": "archmage-continuous.png",
+      "source": "archmage-source.png",
+      "clips": {
+        "move": {
+          "start": 0,
+          "frames": 32,
+          "loop": true
+        },
+        "action": {
+          "start": 32,
+          "frames": 29,
+          "loop": false
+        },
+        "ritual": {
+          "start": 61,
+          "frames": 29,
+          "loop": false
+        },
+        "ultimate": {
+          "start": 90,
+          "frames": 29,
+          "loop": false
+        },
+        "idle": {
+          "start": 119,
+          "frames": 16,
+          "loop": true
+        },
+        "death": {
+          "start": 135,
+          "frames": 9,
+          "loop": false
+        }
+      },
+      "sourceKeyPoses": 39
+    },
+    "healer": {
+      "atlas": "healer-continuous.png",
+      "source": "healer-source.png",
+      "clips": {
+        "move": {
+          "start": 0,
+          "frames": 32,
+          "loop": true
+        },
+        "action": {
+          "start": 32,
+          "frames": 32,
+          "loop": true
+        },
+        "idle": {
+          "start": 64,
+          "frames": 16,
+          "loop": true
+        },
+        "death": {
+          "start": 80,
+          "frames": 13,
+          "loop": false
+        }
+      },
+      "sourceKeyPoses": 24
     }
   }
 }
