@@ -1,0 +1,89 @@
+{
+  "format": "generated-2d-continuous-v1",
+  "release": "20260925-hidden-horde-v1",
+  "frameWidth": 320,
+  "frameHeight": 224,
+  "feetY": 216,
+  "columns": 8,
+  "interpolation": "bidirectional optical flow, six samples per key interval",
+  "units": {
+    "lavaBomber": {
+      "atlas": "lava-bomber-20260925-hidden-horde-v1-continuous.png",
+      "source": "lava-bomber-20260925-hidden-horde-v1-source.png",
+      "clips": {
+        "idle": {
+          "start": 0,
+          "frames": 36,
+          "loop": true
+        },
+        "move": {
+          "start": 36,
+          "frames": 36,
+          "loop": true
+        },
+        "action": {
+          "start": 72,
+          "frames": 31,
+          "loop": false
+        },
+        "death": {
+          "start": 103,
+          "frames": 31,
+          "loop": false
+        },
+        "hurt": {
+          "start": 134,
+          "frames": 31,
+          "loop": false
+        }
+      },
+      "sourceKeyPoses": 30
+    },
+    "bombThrower": {
+      "atlas": "bomb-thrower-20260925-hidden-horde-v1-continuous.png",
+      "source": "bomb-thrower-20260925-hidden-horde-v1-source.png",
+      "clips": {
+        "idle": {
+          "start": 0,
+          "frames": 36,
+          "loop": true
+        },
+        "move": {
+          "start": 36,
+          "frames": 36,
+          "loop": true
+        },
+        "action": {
+          "start": 72,
+          "frames": 31,
+          "loop": false
+        },
+        "death": {
+          "start": 103,
+          "frames": 31,
+          "loop": false
+        },
+        "hurt": {
+          "start": 134,
+          "frames": 31,
+          "loop": false
+        }
+      },
+      "sourceKeyPoses": 30
+    }
+  },
+  "items": {
+    "lavaBomber": {
+      "image": "hidden-lava-core-20260925-hidden-horde-v1.png",
+      "source": "hidden-lava-core-20260925-hidden-horde-v1-source.png",
+      "width": 244,
+      "height": 256
+    },
+    "bombThrower": {
+      "image": "hidden-fuse-case-20260925-hidden-horde-v1.png",
+      "source": "hidden-fuse-case-20260925-hidden-horde-v1-source.png",
+      "width": 256,
+      "height": 252
+    }
+  }
+}

@@ -68,41 +68,9 @@
       },
       "sourceKeyPoses": 30
     },
-    "giant": {
-      "atlas": "zombie-giant-continuous.png",
-      "source": "zombie-giant-source.png",
-      "clips": {
-        "idle": {
-          "start": 0,
-          "frames": 36,
-          "loop": true
-        },
-        "move": {
-          "start": 36,
-          "frames": 36,
-          "loop": true
-        },
-        "action": {
-          "start": 72,
-          "frames": 31,
-          "loop": false
-        },
-        "death": {
-          "start": 103,
-          "frames": 31,
-          "loop": false
-        },
-        "rise": {
-          "start": 134,
-          "frames": 31,
-          "loop": false
-        }
-      },
-      "sourceKeyPoses": 30
-    },
     "knight": {
-      "atlas": "zombie-knight-continuous.png",
-      "source": "zombie-knight-source.png",
+      "atlas": "zombie-knight-mounted-20260925-hidden-horde-v1-continuous.png",
+      "source": "zombie-knight-mounted-20260925-hidden-horde-v1-source.png",
       "clips": {
         "idle": {
           "start": 0,
@@ -128,9 +96,19 @@
           "start": 134,
           "frames": 31,
           "loop": false
+        },
+        "chargeWindup": {
+          "start": 165,
+          "frames": 31,
+          "loop": false
+        },
+        "charge": {
+          "start": 196,
+          "frames": 36,
+          "loop": true
         }
       },
-      "sourceKeyPoses": 30
+      "sourceKeyPoses": 42
     },
     "maker": {
       "atlas": "zombie-maker-continuous.png",
@@ -168,7 +146,40 @@
         }
       },
       "sourceKeyPoses": 36
+    },
+    "thrower": {
+      "atlas": "zombie-thrower-20260925-hidden-horde-v1-continuous.png",
+      "source": "zombie-thrower-20260925-hidden-horde-v1-source.png",
+      "clips": {
+        "idle": {
+          "start": 0,
+          "frames": 36,
+          "loop": true
+        },
+        "move": {
+          "start": 36,
+          "frames": 36,
+          "loop": true
+        },
+        "action": {
+          "start": 72,
+          "frames": 31,
+          "loop": false
+        },
+        "death": {
+          "start": 103,
+          "frames": 31,
+          "loop": false
+        },
+        "rise": {
+          "start": 134,
+          "frames": 31,
+          "loop": false
+        }
+      },
+      "sourceKeyPoses": 30
     }
   },
-  "tombstone": "zombie-tombstone.png"
+  "tombstone": "zombie-tombstone.png",
+  "release": "20260925-hidden-horde-v1"
 }
