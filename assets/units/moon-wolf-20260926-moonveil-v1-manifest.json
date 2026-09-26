@@ -1,0 +1,52 @@
+{
+  "format": "generated-2d-continuous-v1",
+  "release": "20260926-moonveil-v1",
+  "frameWidth": 320,
+  "frameHeight": 224,
+  "feetY": 216,
+  "columns": 8,
+  "interpolation": "bidirectional optical flow; four idle/death and six movement/action samples per key interval",
+  "units": {
+    "moonWolf": {
+      "atlas": "moon-wolf-20260926-moonveil-v1-continuous.png",
+      "source": "moon-wolf-20260926-moonveil-v1-source.png",
+      "clips": {
+        "idle": {
+          "start": 0,
+          "frames": 32,
+          "loop": true
+        },
+        "move": {
+          "start": 32,
+          "frames": 48,
+          "loop": true
+        },
+        "action": {
+          "start": 80,
+          "frames": 48,
+          "loop": true
+        },
+        "death": {
+          "start": 128,
+          "frames": 29,
+          "loop": false
+        },
+        "hurt": {
+          "start": 157,
+          "frames": 25,
+          "loop": false
+        }
+      },
+      "sourceKeyPoses": 32,
+      "contactPhase": 0.5
+    }
+  },
+  "items": {
+    "moonWolf": {
+      "image": "hidden-wolf-tooth-20260926-moonveil-v1.png",
+      "source": "hidden-wolf-tooth-20260926-moonveil-v1-source.png",
+      "width": 256,
+      "height": 187
+    }
+  }
+}
